@@ -1,0 +1,341 @@
+    * {
+        box-sizing: border-box;
+    }
+
+    html {
+        overflow-x: hidden;
+    }
+
+    #hero {
+    background: linear-gradient(rgba(27,27,36,0.75), rgba(27,27,36,0.75)), url(images/hero.png);
+    background-size: cover;
+    }
+
+    #logo {
+       padding: 150px 0 25px 0;
+       text-align: center;
+    }
+
+    .heading {
+        text-align: center;
+        color: #fff;
+        font-size: 40px;
+        font-family: 'Montserrat Alternates';
+        line-height: 1.5em;
+        font-weight: 600;
+    }
+
+    #buttons {
+        text-align: center;
+        font-family: Roboto;
+        padding: 35px 0 130px 0;
+    }
+
+    .grey-button {
+        transition: all 0.5s ease 0.1s;
+        display: inline-block;
+        margin-left: 75px;
+        padding: 12px 37px;
+        border: 2px solid #fff;
+        border-radius: 8px;
+        font-size: 17px;
+        background: rgba(255,255,255,0.0);
+        color: #fff;
+    }
+
+    .grey-button:hover {
+        color: #2185f5;
+        background: rgba(255,255,255,0.7);
+        text-decoration: none;
+    }
+
+    .blue-button {
+        transition: all 0.5s ease 0.1s;
+        display: inline-block;
+        margin-left: 37px;
+        background: #2185f5;
+        padding: 12px 39px;
+        font-size: 17px;
+        border: 2px solid #2185f5;
+        border-radius: 8px;
+        color: #fff;
+    }
+
+    .blue-button:hover {
+        color: #2185f5;
+        background: rgba(255,255,255,0);
+        text-decoration: none;
+    }
+
+    #technology {
+        background: url(images/smart-watch.png);
+        background-position: bottom-left;
+        background-repeat: no-repeat;
+        font-family: Roboto;
+        margin-top: 80px;
+        overflow: hidden;
+        padding-bottom: 40px;
+
+    }
+
+    #technology h3 {
+        font-size: 31px;
+        font-family: 'Montserrat Alternates';
+        font-weight: 600;
+        margin-top: 50px;
+        margin-right: 40px;
+        padding-bottom: 60px;
+        text-align: center;
+    }
+
+    #content-info {
+        float: right;
+        width: 58%;
+        font-size: 17px;
+    }
+
+    #content-info h5 {
+        font-size: 20px;
+        line-height: 2.0em;
+        font-weight: 600;
+    }
+
+    #content-info i {
+        font-size: 40px;
+        color: #2185f5;
+        line-height: 1.5em;
+    }
+
+    #content-info p {
+        font-weight: 300;
+        line-height: 1.8em;
+    }
+
+    .info1 {
+        padding-bottom: 20px;
+    }
+
+    .info1:nth-of-type(2n+1){
+        margin-right: 30px;
+        margin-left: 10px;
+    }
+
+    #experts {
+        font-family: Roboto;
+        background: #2185f5;
+        padding: 80px 0;
+    }
+    .wrapper {
+        width: 88%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 2em;
+    }
+
+    .header h3 {
+        font-weight: 600;
+        font-size: 40px;
+        font-family: 'Montserrat Alternates';
+        text-align: center;
+        color: #fff;
+        padding-bottom: 50px;
+    }
+
+    .white-box {
+        box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.58);
+        background: #fff;
+        text-align: center;
+        padding: 60px 0 50px 0;
+
+    }
+
+    .white-box p {
+        padding: 50px 30px 20px 30px;
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 2.0em;
+    }
+
+    .white-box h4 {
+        font-size: 17px;
+        font-weight: bold;
+        color: #000;
+    }
+
+    #quote {
+        background-image: linear-gradient(rgba(27,27,36,0.5), rgba(27,27,36,0.5)), url(images/45.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom-left;
+        padding-top: 130px;
+        padding-bottom: 190px;
+        text-align: center;
+        font-family: Roboto;
+    }
+    #quote i {
+        color: #2185f5;
+        font-size: 68px;
+        padding-bottom: 20px;
+    }
+
+    #quote p {
+        font-size: 27px;
+        line-height: 1.7em;
+        font-weight: 300;
+        color: #fff;
+        width: 70%;
+        margin: auto;
+    }
+
+    #first {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        width: 80%;
+        margin: auto;
+    }
+
+    #first img {
+        padding-bottom: 70px;
+    }
+
+    #clients h3 {
+        font-weight: 600;
+        font-size: 40px;
+        font-family: 'Montserrat Alternates';
+        text-align: center;
+        color: #000;
+        padding: 70px 0;
+    }
+
+    #about {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 4em;
+        background: #2185f5;
+        color: #fff;
+        font-family: Roboto;
+        font-size: 15px;
+        font-weight: 100;
+        line-height: 1.9em;
+        padding: 68px 30px 65px 30px;
+    }
+
+    #about i {
+        padding-right: 5px;
+    }
+
+    #about h3 {
+        font-family: 'Montserrat Alternates';
+        padding-bottom: 10px;
+        font-size: 21px;
+        font-weight: 600;
+    }
+
+    .blok2 p {
+        line-height: 1.1em;
+        font-weight: 300;
+        display: inline-block;
+    }
+
+/* media for mobile */
+
+    @media(max-width: 700px){
+        #buttons {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .grey-button {
+            margin: 0 auto 20px auto;
+        }
+        .blue-button {
+            margin: 0;
+        }
+        #technology {
+            background: #fff;
+        }
+        #technology h3 {
+            text-align: center;
+            margin-right: 0;
+        }
+        #content-info {
+            float: none;
+            width: 80%;
+            margin: auto;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+        }
+        .info1:nth-of-type(2n+1) {
+            margin: 0;
+        }
+        .wrapper {
+            width: 80%;
+            margin: auto;
+            display: grid;
+            grid-template-rows: repeat(3, 1fr);
+            grid-template-columns: 1fr;
+        }
+        .header h3 {
+            font-size: 38px;
+        }
+        .white-box {
+            margin-bottom: 20px;
+        }
+        #quote {
+            background-position: center center;
+        }
+        #first {
+            display: flex !important;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #about {
+            display: flex;
+            flex-direction: column;
+            padding: 30px 10%;
+        }
+
+}
+
+/* media queries for tablets */
+
+@media (max-width: 1050px) {
+
+        #technology {
+            width: 90%;
+            background: #fff;
+            margin: auto;
+        }
+        #content-info {
+            float: none;
+            width: 100%;
+            text-align: center;
+        }
+        .info1:nth-of-type(2n+1){
+            margin: 0;
+        }
+        .wrapper {
+            width: 96%;
+            margin: auto;
+            grid-column-gap: 1em;
+        }
+        #first {
+            width: 90%;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+
+        }
+        #about  {
+            padding-right: 0px;
+            padding-left: 25px;
+        }
+}
